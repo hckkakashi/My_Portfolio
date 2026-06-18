@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0a0a0c">
+    <meta name="description" content="Pratik Tamang — Software Engineer & UI/UX Designer">
+    <title>Pratik Tamang — /engineer /designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="scanlines" aria-hidden="true"></div>
+
+    <!-- ===== Sidebar / rail ===== -->
+    <aside class="rail">
+        <div class="rail-top">
+            <a href="#boot" class="rail-id">
+                <span class="rail-id-dot"></span> PRATIK
+                <span class="dim">.TAMANG</span>
+            </a>
+            <p class="rail-role dim">SOFTWARE ENGINEER<br>UI/UX DESIGNER</p>
+        </div>
+
+        <nav class="rail-nav" aria-label="Sections">
+            <svg class="rail-trace" viewBox="0 0 2 600" preserveAspectRatio="none" aria-hidden="true">
+      <line x1="1" y1="0" x2="1" y2="600" class="trace-track"/>
+      <line x1="1" y1="0" x2="1" y2="0" class="trace-fill" id="traceFill"/>
+    </svg>
+            <a href="#boot" class="rail-link active" data-section="boot"><span class="num">00</span>boot</a>
+            <a href="#about" class="rail-link" data-section="about"><span class="num">01</span>about</a>
+            <a href="#log" class="rail-link" data-section="log"><span class="num">02</span>log</a>
+            <a href="#modules" class="rail-link" data-section="modules"><span class="num">03</span>modules</a>
+            <a href="#circuits" class="rail-link" data-section="circuits"><span class="num">04</span>circuits</a>
+            <a href="#contact" class="rail-link" data-section="contact"><span class="num">05</span>contact</a>
+        </nav>
+
+        <div class="rail-bottom">
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=tamangpratik01022@gmail.com" target="_blank" rel="noopener" aria-label="Email">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+        <rect x="3" y="5" width="18" height="14" rx="2"/>
+        <path d="M3 7l9 6 9-6"/>
+    </svg>
+            </a>
+            <a href="https://github.com/hckkakashi" target="_blank" rel="noopener" aria-label="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.17-.02-2.12-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.02 1.75 2.68 1.24 3.33.95.1-.74.39-1.24.71-1.53-2.55-.29-5.24-1.28-5.24-5.67 0-1.25.45-2.28 1.18-3.08-.12-.29-.51-1.46.11-3.05 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.59.23 2.76.11 3.05.74.8 1.18 1.83 1.18 3.08 0 4.4-2.7 5.38-5.27 5.66.41.36.78 1.07.78 2.15 0 1.56-.01 2.81-.01 3.19 0 .31.21.66.79.55A11.5 11.5 0 0 0 23.5 12C23.5 5.73 18.27.5 12 .5z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/pratik-tamang-a87302260/" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/bomzan_pratik/" target="_blank" rel="noopener" aria-label="Instagram">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+        <path d="M7.75 2C4.57 2 2 4.57 2 7.75v8.5C2 19.43 4.57 22 7.75 22h8.5C19.43 22 22 19.43 22 16.25v-8.5C22 4.57 19.43 2 16.25 2h-8.5zm0 2h8.5A3.75 3.75 0 0 1 20 7.75v8.5A3.75 3.75 0 0 1 16.25 20h-8.5A3.75 3.75 0 0 1 4 16.25v-8.5A3.75 3.75 0 0 1 7.75 4zm8.75 1.5a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5zM12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 2a3 3 0 1 1 0 6 3 3 0 0 1 0-6z"/>
+    </svg>
+            </a>
+        </div>
+    </aside>
+
+    <button class="rail-toggle" aria-label="Toggle menu" aria-expanded="false">
+  <span></span><span></span><span></span>
+</button>
+
+    <main>
+
+        <!-- ===== 00 BOOT (hero) ===== -->
+        <section id="boot" class="mod mod-boot">
+            <div class="mod-inner mod-inner-wide">
+                <p class="mod-tag dim">// 00 — boot</p>
+                <div class="boot-layout">
+                    <div class="boot-left">
+                        <div class="terminal">
+                            <div class="terminal-bar"><span></span><span></span><span></span>
+                                <p class="dim">pratik@portfolio:~</p>
+                            </div>
+                            <div class="terminal-body" id="terminalBody"></div>
+                        </div>
+                        <div class="boot-actions">
+                            <a href="#contact" class="btn btn-fill">say hi <span class="arrow">→</span></a>
+                            <a href="#modules" class="btn btn-line">view modules</a>
+                        </div>
+                    </div>
+                    <div class="boot-right">
+                        <canvas id="dotCanvas" aria-hidden="true"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== 01 ABOUT ===== -->
+        <section id="about" class="mod">
+            <div class="mod-inner">
+                <p class="mod-tag dim">// 01 — about</p>
+                <div class="about-layout">
+                    <div class="id-badge">
+                        <div class="id-photo">
+                            <img src="assets/profile-pic.jpg" alt="Pratik Tamang" id="profileImg">
+                        </div>
+                        <p class="id-badge-label dim">ID · NP-ENG-01</p>
+                    </div>
+                    <div class="about-copy">
+                        <h2>Engineer who designs.<br>Designer who ships.</h2>
+                        <p>I'm a software engineer and UI/UX designer based in Nepal, currently co-founding <strong>Yaksha Soft</strong>. I hold a <strong>BSc (Hons) Computer Science and Software Engineering</strong> from the <strong>University of Bedfordshire</strong>.</p>
+                        <p>Most of my work starts as a wireframe and ends as shipped code — college systems, library platforms, mobile apps, and the brand work that wraps around them. Outside client work, I solder things: sensors, microcontrollers, the occasional
+                            questionable RF experiment.</p>
+                        <div class="stack-block">
+                            <p class="dim">// stack</p>
+                            <div class="stack-tags">
+                                <span>React.js</span><span>Flutter</span><span>JavaScript ES6+</span>
+                                <span>Figma</span><span>C++ / IoT</span><span>UI/UX</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== 02 LOG (experience) ===== -->
+        <section id="log" class="mod">
+            <div class="mod-inner">
+                <p class="mod-tag dim">// 02 — log</p>
+                <h2 class="mod-title">Work history</h2>
+                <div class="log-list">
+
+                    <article class="log-entry">
+                        <div class="log-meta">
+                            <p class="log-date dim mono">NOV 2025 → PRESENT</p>
+                            <span class="log-status status-active">ACTIVE</span>
+                        </div>
+                        <h3>Co-Founder &amp; UI/UX Designer <span class="at">@ Yaksha Soft</span></h3>
+                        <ul>
+                            <li>Co-founded the studio; lead UI/UX design and product direction for client work</li>
+                            <li>Designed and built the Coffee Cart by BCS website, including brand styling and ordering flow</li>
+                            <li>Shipped mobile apps and websites for cafe and college clients, wireframe through launch</li>
+                        </ul>
+                    </article>
+
+                    <article class="log-entry">
+                        <div class="log-meta">
+                            <p class="log-date dim mono">DEC 2024 → PRESENT</p>
+                            <span class="log-status status-active">ACTIVE</span>
+                        </div>
+                        <h3>UI/UX Designer <span class="at">@ LBEF College</span></h3>
+                        <ul>
+                            <li>Designed the full visual identity and website for LBEF College</li>
+                            <li>Built a library management system for tracking books, loans, and returns</li>
+                            <li>Designed and shipped the GAARC website and email templates</li>
+                            <li>Designed Rakatveer, a blood donation app connecting nearby donors with people in need</li>
+                        </ul>
+                    </article>
+
+                    <article class="log-entry">
+                        <div class="log-meta">
+                            <p class="log-date dim mono">OCT 2024 → DEC 2024</p>
+                            <span class="log-status status-closed">CLOSED</span>
+                        </div>
+                        <h3>Software Developer Intern <span class="at">@ PCPS College</span></h3>
+                        <ul>
+                            <li>Built a mobile app giving students access to schedules, notices, and resources</li>
+                            <li>Designed and implemented email templates for official college communications</li>
+                            <li>Developed a library management system for inventory, loans, and returns</li>
+                        </ul>
+                    </article>
+
+                    <article class="log-entry">
+                        <div class="log-meta">
+                            <p class="log-date dim mono">JUN 2024 → AUG 2024</p>
+                            <span class="log-status status-closed">CLOSED</span>
+                        </div>
+                        <h3>UI/UX Design Intern <span class="at">@ Cod Soft</span></h3>
+                        <ul>
+                            <li>Remote internship designing layouts for email templates and menu-based app screens</li>
+                            <li>Translated client requirements into clean, usable interface designs across short projects</li>
+                        </ul>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== 03 MODULES (software projects) ===== -->
+        <section id="modules" class="mod">
+            <div class="mod-inner">
+                <p class="mod-tag dim">// 03 — modules</p>
+                <h2 class="mod-title">Software</h2>
+                <div class="module-table">
+                    <div class="module-row module-row-head dim">
+                        <span>module</span><span>stack</span><span>status</span>
+                    </div>
+
+                    <div class="module-row">
+                        <div class="module-name">
+                            <strong>LBEF CMS Website</strong>
+                            <p>Content management system and public website for LBEF College — academics, admissions, news.</p>
+                        </div>
+
+                        <span class="module-stack">React.js</span>
+
+                        <a href="https://www.lbef.org/" target="_blank" rel="noopener" class="visit-link" aria-label="Visit Website">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M14 3h7v7"/>
+            <path d="M10 14L21 3"/>
+            <path d="M21 14v7H3V3h7"/>
+        </svg>
+                        </a>
+
+                        <span class="module-status live">LIVE</span>
+                    </div>
+
+                    <div class="module-row">
+                        <div class="module-name">
+                            <strong>Supreme Associate Traders</strong>
+                            <p>Static marketing site built from scratch, focused on clear navigation and fast load.</p>
+                        </div>
+
+                        <span class="module-stack">React.js</span>
+
+                        <a href="https://www.sat.com.np/" target="_blank" rel="noopener" class="visit-link" aria-label="Visit Website">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M14 3h7v7"/>
+            <path d="M10 14L21 3"/>
+            <path d="M21 14v7H3V3h7"/>
+        </svg>
+                        </a>
+
+                        <span class="module-status live">LIVE</span>
+                    </div>
+
+                    <div class="module-row">
+                        <div class="module-name">
+                            <strong>LBEF College App</strong>
+                            <p>Mobile apps giving students access to schedules, notices, and academic resources.</p>
+                        </div>
+
+                        <span class="module-stack">Flutter</span>
+
+                        <a href="https://play.google.com/store/apps/details?id=com.lbef.edu.np.lbef&hl=en&pli=1" target="_blank" rel="noopener" class="visit-link" aria-label="Visit App">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M14 3h7v7"/>
+            <path d="M10 14L21 3"/>
+            <path d="M21 14v7H3V3h7"/>
+        </svg>
+                        </a>
+
+                        <span class="module-status live">LIVE</span>
+                    </div>
+
+                    <div class="module-row">
+                        <div class="module-name">
+                            <strong>Library Management System</strong>
+                            <p>Shared system for PCPS and LBEF tracking inventory, loans, returns, overdue alerts.</p>
+                        </div>
+
+                        <span class="module-stack">React.js</span>
+
+                        <a href="https://your-link.com" target="_blank" rel="noopener" class="visit-link" aria-label="Visit Website">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M14 3h7v7"/>
+            <path d="M10 14L21 3"/>
+            <path d="M21 14v7H3V3h7"/>
+        </svg>
+                        </a>
+
+                        <span class="module-status live">LIVE</span>
+                    </div>
+
+                    <div class="module-row">
+                        <div class="module-name">
+                            <strong>Rakatveer</strong>
+                            <p>Blood donation app connecting nearby donors with people in need, built for speed.</p>
+                        </div>
+
+                        <span class="module-stack">Flutter</span>
+
+                        <a href="https://your-link.com" target="_blank" rel="noopener" class="visit-link" aria-label="Visit App">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M14 3h7v7"/>
+            <path d="M10 14L21 3"/>
+            <path d="M21 14v7H3V3h7"/>
+        </svg>
+                        </a>
+
+                        <span class="module-status live">LIVE</span>
+                    </div>
+
+                    <div class="module-row">
+                        <div class="module-name">
+                            <strong>Coffee Cart by BCS</strong>
+                            <p>Brand website and ordering experience for a coffee cart business, via Yaksha Soft.</p>
+                        </div>
+
+                        <span class="module-stack">React.js</span>
+
+                        <a href="https://www.coffeecartbybcs.com" target="_blank" rel="noopener" class="visit-link" aria-label="Visit Website">
+                            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M14 3h7v7"/>
+            <path d="M10 14L21 3"/>
+            <path d="M21 14v7H3V3h7"/>
+        </svg>
+                        </a>
+
+                        <span class="module-status live">LIVE</span>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== 04 CIRCUITS (hardware) ===== -->
+        <section id="circuits" class="mod">
+            <div class="mod-inner">
+                <p class="mod-tag dim">// 04 — circuits</p>
+                <h2 class="mod-title">Hardware</h2>
+                <div class="circuit-grid">
+
+                    <article class="circuit-card">
+                        <div class="circuit-readout" aria-hidden="true">
+                            <svg viewBox="0 0 240 120" fill="none">
+              <path d="M10 90 L40 90 L40 40 L70 40 L70 70 L100 70 L100 20 L130 20 L130 60 L160 60 L160 90 L230 90" stroke="currentColor" stroke-width="2"/>
+              <circle cx="100" cy="20" r="3" fill="currentColor"/>
+              <circle cx="160" cy="60" r="3" fill="currentColor"/>
+            </svg>
+                        </div>
+                        <h3>Infrared Blood Sugar Level Tester</h3>
+                        <p>Non-invasive glucose estimation using infrared sensing — no blood draw required.</p>
+                        <p class="circuit-parts dim mono">C++ · IR Sensor · Microcontroller</p>
+                        <span class="link-arrow">full project log <span class="arrow">→</span></span>
+                    </article>
+
+                    <article class="circuit-card">
+                        <div class="circuit-readout" aria-hidden="true">
+                            <svg viewBox="0 0 240 120" fill="none">
+              <path d="M10 60 Q60 20 90 60 Q120 100 150 60 Q180 20 230 60" stroke="currentColor" stroke-width="2"/>
+              <circle cx="90" cy="60" r="3" fill="currentColor"/>
+              <circle cx="150" cy="60" r="3" fill="currentColor"/>
+            </svg>
+                        </div>
+                        <h3>Network Jammer</h3>
+                        <p>Short-range RF interference experiment — exploring signal-blocking at the hardware level.</p>
+                        <p class="circuit-parts dim mono">C++ · RF Module · Antenna</p>
+                        <span class="link-arrow">full project log <span class="arrow">→</span></span>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== 05 CONTACT ===== -->
+        <section id="contact" class="mod mod-contact">
+            <div class="mod-inner">
+                <p class="mod-tag dim">// 05 — contact</p>
+                <h2 class="contact-title">Open a <span class="accent">connection</span>.</h2>
+                <p class="contact-sub">Open to new roles, freelance design and engineering work, and odd side projects. I read everything that comes through.</p>
+                <div class="boot-actions">
+                    <a href="mailto:hello@pratiktamang.com" class="btn btn-fill">say hi <span class="arrow">→</span></a>
+                    <a href="https://www.linkedin.com/in/pratik-tamang-a87302260/" target="_blank" rel="noopener" class="btn btn-line">linkedin</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer dim">
+        <p>designed &amp; built — pratik tamang</p>
+    </footer>
+
+    <script src="silhouette_data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
